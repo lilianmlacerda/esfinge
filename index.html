@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codificador e Decodificador de Texto</title>
+    <title>Esfinge</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <div class="input-section">
-            <h1>Codificador e Decodificador de Texto</h1>
-            <textarea id="inputText" placeholder="Digite o texto aqui..."></textarea>
-            <div class="buttons">
-                <button id="encryptBtn">Criptografar</button>
-                <button id="decryptBtn">Descriptografar</button>
+        <header>
+            <img src="../../img/2.PNG.png" alt="Logo" class="logo">
+            <h1>Esfinge | Codificador e Decodificador de Texto</h1>
+        </header>
+        <div class="main-content">
+            <div class="input-section">
+                <input type="text" id="inputText" placeholder="Digite o texto aqui..." aria-hidden="true">
+                <p>Apenas letras minúsculas e sem acento.</p>
+                <div class="buttons">
+                    <button id="encryptBtn">Criptografar</button>
+                    <button id="decryptBtn">Descriptografar</button>
+                </div>
             </div>
-        </div>
-        <div class="output-section" id="outputSection">
-            <p id="outputText">
-            </p>
-            <img id="placeholderImg" src="../../img/1.PNG.png" alt="Imagem de Placeholder">
-            <button id="copyBtn">Copiar</button>
+            <div class="output-section" id="outputSection">
+                <p id="outputText"></p>
+                <img id="placeholderImg" src="../../img/1.PNG.png" alt="Imagem de Placeholder">
+                <button id="copyBtn">Copiar</button>
+            </div>
         </div>
     </div>
     <footer>
